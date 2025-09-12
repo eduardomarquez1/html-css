@@ -1,0 +1,37 @@
+table{ 
+    height: 120px;
+    padding-top: 4px;
+    font-family: 'calibri';
+    background-color: rgba(204, 203, 203, 0.432);
+    border-inline: 0;
+    border-bottom: none;
+}
+.bg_roxo{
+    width: 120px;
+    background-color: rgba(204, 125, 236, 0.637);
+}
+.bg_laranja{
+    width: 120px;
+    background-color: rgba(255, 145, 0, 0.521);
+}
+.bg_verde{
+    width: 120px;
+    background-color: rgba(19, 216, 19, 0.548);
+}
+.bg_cinza{
+    width: 15mm;
+    background-color: rgba(141, 141, 141, 0.473);
+}
+.bg_azul{
+    width: 120px;
+    background-color: rgba(0, 0, 255, 0.329);
+}
+tr { 
+    border-inline:0;
+    height: 10mm;
+    text-align: center;
+}
+td {
+    border: 0;
+    border-inline: 0;
+}
