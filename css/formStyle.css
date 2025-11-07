@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+div{
+    display: flex;
+    justify-content: right;
+}
+h1{
+    text-shadow: 2px 3px 2px  black;
+    border-bottom: 3px solid black;
+    text-align: center;
+    width: 460px;
+    margin-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.tema{
+    font-family: sans-serif;
+    width: 530px;
+    height: 490px;
+    color: white;
+    background-color: #8a2900;
+    border-radius: 30px;
+}
+.subtitulo{
+    font-size: 13px;
+    text-shadow: 2px 2px 2px  black;
+}
+
+.cxTexto{
+    background-color: rgb(255, 211, 117);
+    margin-top: -10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 60px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px 2px black;
+    box-sizing: border-box;
+}
+.rotulo{
+    font-family: "calibri";
+    text-shadow: 2px 3px 2px black;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.botao{
+    height: 32px;
+    width: 80px;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    border: none;
+    margin-right: 309px;
+    text-shadow: 1px 1px 1px rgb(248, 247, 180);
+}
+#nome{
+    padding-left: 5px;
+    height: 38px;
+    width: 330px;
+}
+#mensagem{
+    padding-left: 5px;
+    height: 90px;
+    width: 330px;
+}
+#email{
+    padding-left: 5px;
+    height: 38px;
+    width: 330px;
+}
+select{
+    padding-left: 5px;
+    height: 30px;
+    width: 330px;
+}

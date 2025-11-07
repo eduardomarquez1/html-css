@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Personalizado</title>
+    <link rel="stylesheet" href="css/formStyle.css">
+</head>
+<body>
+    <form action="" method="post" class="tema">
+        <h1>Formulário de contato<br/>
+            <span class="subtitulo">Preencha todos os campos.</span>
+        </h1>
+        <div>
+            <div class="rotulo">Nome :</div>
+            <input id="nome" type="text" name="nome" placeholder="Nome completo" class="cxTexto">
+        </div>
+        <div>
+            <div class="rotulo">Email :</div>
+            <input id="email" type="email" name="email" placeholder="E-mail Válido" class="cxTexto">
+        </div>
+        <div>
+            <div class="rotulo">Assunto :</div>
+            <select name="assunto" class="cxTexto">
+                <option value=""></option>
+                <option value="CSS">CSS</option>
+                <option value="HTML">HTML</option>
+                <option value="JavaScript">JavaScript</option>
+            </select>
+        </div>
+        <div>
+            <div class="rotulo">Mensagem :</div>
+            <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" class="cxTexto"></textarea>
+        </div>
+        <div>
+            <div class="rotulo">&nbsp;</div>
+            <input type="button" value="Enviar" class="botao"> 
+        </div>
+    </form>
+</body>
+</html>
