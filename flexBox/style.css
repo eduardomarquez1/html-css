@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #03055e;
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+.item{
+    background-color: rgb(14, 167, 255);
+    color: white;
+    font-size: 22px;
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+}
